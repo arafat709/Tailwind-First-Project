@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}",
-    "./public/**/*.html" // If you have HTML files in the public folder
+    "./src/**/*.html" // If you have HTML files in the public folder
   ],
   
   theme: {
