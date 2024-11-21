@@ -10,10 +10,10 @@ module.exports = {
         "header-bg": "#00FFCA"
       },
       backgroundImage:{
-        "hero": "url('/assets/hero-bg.png')",
-         "finance": "url('/assets/finance.png')",
-         "np": "url('/assets/np.png')",
-         "footer": "url('/assets/footer.png')"
+        "hero": "url('assets/hero-bg.png')",
+         "finance": "url('assets/finance.png')",
+         "np": "url('assets/np.png')",
+         "footer": "url('assets/footer.png')"
       },
     },
   },
