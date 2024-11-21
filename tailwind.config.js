@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{html,js,jsx,ts,tsx}",
+    "./public/**/*.html" // If you have HTML files in the public folder
+  ],
+  
   theme: {
     container:{
       "padding":"10px",
