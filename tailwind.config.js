@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     container:{
       "padding":"10px",
@@ -10,10 +10,10 @@ module.exports = {
         "header-bg": "#00FFCA"
       },
       backgroundImage:{
-        "hero": "url('assets/hero-bg.png')",
-         "finance": "url('assets/finance.png')",
-         "np": "url('assets/np.png')",
-         "footer": "url('assets/footer.png')"
+        "hero": "url('/assets/hero-bg.png')",
+         "finance": "url('/assets/finance.png')",
+         "np": "url('/assets/np.png')",
+         "footer": "url('/assets/footer.png')"
       },
     },
   },
