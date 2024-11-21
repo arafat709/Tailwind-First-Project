@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .button{
+        @apply bg-pink-500 lg:px-7 px-5 lg:py-3 py-2 text-white uppercase lg:text-lg text-sm font-bold
+    }
+    .headl{
+        @apply text-sm font-bold text-white uppercase
+    }
+    .headl-sm{
+        @apply text-sm font-bold text-white uppercase text-center
+    }
+    .headh{
+        @apply text-lg font-bold text-white pb-10 uppercase 
+    }
+    .headh-sm{
+        @apply text-lg font-bold text-white pt-10 pb-5 uppercase 
+    }
+}
